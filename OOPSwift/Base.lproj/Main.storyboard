@@ -46,6 +46,14 @@
                                     <action selector="updateAge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T1G-BZ-4EA"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u4L-3t-KZH" customClass="Button" customModule="OOPSwift" customModuleProvider="target">
+                                <rect key="frame" x="174" y="255" width="67" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -54,6 +62,7 @@
                         <outlet property="labelAge" destination="gl7-MH-1Ug" id="x3A-vp-iyB"/>
                         <outlet property="labelGender" destination="0xJ-Q4-QkT" id="rJU-kf-xfJ"/>
                         <outlet property="labelName" destination="6QJ-11-Nf3" id="2c7-Y4-QbO"/>
+                        <outlet property="roundButton" destination="u4L-3t-KZH" id="gl4-sg-hHC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

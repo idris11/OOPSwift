@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09A8AE75228C074800B19815 /* FasilitatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A8AE74228C074800B19815 /* FasilitatorModel.swift */; };
+		09A8AE79228C097B00B19815 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A8AE78228C097B00B19815 /* Button.swift */; };
 		09E70F7B228BE11800F62D1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E70F7A228BE11800F62D1C /* AppDelegate.swift */; };
 		09E70F7D228BE11800F62D1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E70F7C228BE11800F62D1C /* ViewController.swift */; };
 		09E70F80228BE11800F62D1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E70F7E228BE11800F62D1C /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09A8AE74228C074800B19815 /* FasilitatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FasilitatorModel.swift; sourceTree = "<group>"; };
+		09A8AE78228C097B00B19815 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		09E70F77228BE11800F62D1C /* OOPSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OOPSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E70F7A228BE11800F62D1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09E70F7C228BE11800F62D1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				09E70F89228BE11800F62D1C /* Info.plist */,
 				09E70F81228BE11800F62D1C /* OOPSwift.xcdatamodeld */,
 				09E70F8F228BE56900F62D1C /* LearnerModel.swift */,
+				09A8AE74228C074800B19815 /* FasilitatorModel.swift */,
+				09A8AE78228C097B00B19815 /* Button.swift */,
 			);
 			path = OOPSwift;
 			sourceTree = "<group>";
@@ -142,9 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				09E70F83228BE11800F62D1C /* OOPSwift.xcdatamodeld in Sources */,
+				09A8AE79228C097B00B19815 /* Button.swift in Sources */,
 				09E70F90228BE56900F62D1C /* LearnerModel.swift in Sources */,
 				09E70F7D228BE11800F62D1C /* ViewController.swift in Sources */,
 				09E70F7B228BE11800F62D1C /* AppDelegate.swift in Sources */,
+				09A8AE75228C074800B19815 /* FasilitatorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
